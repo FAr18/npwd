@@ -173,7 +173,7 @@
       "EDIT_PROFILE_LOCATION": "位置",
       "EDIT_PROFILE_JOB": "職業",
       "EDIT_PROFILE_TAGS": "標籤",
-      "EDIT_VOICE_MESSAGE": "Voice Message",
+      "EDIT_VOICE_MESSAGE": "語音訊息",
       "EDIT_PROFILE_PREVIEW": "顯示預覽",
       "LIKE": "喜歡",
       "DISLIKE": "不喜歡"
@@ -244,7 +244,7 @@
       "NOTE_TOOLTIP": "檢視筆記",
       "NEW_MESSAGE_GROUP_SUBMIT": "發送",
       "INPUT_NAME_OR_NUMBER": "搜索聯絡人或號碼並按確定",
-      "ACTIONS_TITLE": "動做",
+      "ACTIONS_TITLE": "動作",
       "ME": "我的"
     },
     "DARKCHAT": {
@@ -343,6 +343,7 @@
     "GENERIC_WRITE_TO_CLIPBOARD_TOOLTIP": "複製 {{ content }}",
     "GENERIC_WRITE_TO_CLIPBOARD_MESSAGE": "已經 {{content}} 複製到剪貼簿！",
     "GENERIC_DB_ERROR": "新增/更新請求失敗。",
-    "GENERIC_INVALID_IMAGE_HOST": "您嘗試使用的圖片不被伺服器所允許。"
+    "GENERIC_INVALID_IMAGE_HOST": "您嘗試使用的圖片不被伺服器所允許。",
+    "ERROR_RATE_LIMITED": "請稍待片刻"
   }
 }
