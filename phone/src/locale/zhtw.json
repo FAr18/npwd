@@ -3,7 +3,10 @@
     "MISC": {
       "TOP_LEVEL_ERR_TITLE": "致命的錯誤",
       "TOP_LEVEL_ERR_ACTION": "重新載入",
-      "TOP_LEVEL_ERR_MSG": "NPWD發生無法修復的錯誤，您需要重新載入NUI。錯誤如下所示，僅供開發人員參考。"
+      "TOP_LEVEL_ERR_MSG": "NPWD發生無法修復的錯誤，您需要重新載入NUI。錯誤如下所示，僅供開發人員參考。",
+      "APP_CRASHED_TITLE": "致命的應用程式錯誤",
+      "APP_CRASHED_MSG": "應用程式發生無法恢復的錯誤",
+      "APP_CRASHED_ACTION": "重新載入應用程式"
     },
     "NOTIFICATIONS": {
       "NO_UNREAD": "沒有未讀通知"
@@ -26,6 +29,7 @@
     },
     "SETTINGS": {
       "PHONE_NUMBER": "電話號碼",
+      "PREVIEW_SOUND": "試聽",
       "CATEGORY": {
         "APPEARANCE": "手機殼",
         "PHONE": "電話",
@@ -113,7 +117,8 @@
         "REPORT_TWEET_SUCCESS": "舉報推文成功",
         "REPORT_TWEET_FAILED": "舉報推文失敗",
         "FETCH_TWEETS_FAILED": "抓取推文失敗",
-        "DELETE_TWEET_FAILED": "刪除推文失敗"
+        "DELETE_TWEET_FAILED": "刪除推文失敗",
+        "FILTER_FETCH_FAILED": "取得已篩選推文失敗"
       },
       "MESSAGES": {
         "NEW_RETWEET_BROADCAST": "@{{ profile_name }} 轉發自某人",
@@ -146,6 +151,7 @@
     "MATCH": {
       "MESSAGES": {
         "PROFILE_MATCHED_AT": "符合： {{ matchedAt }}",
+        "NEW_MATCH": "新的媒合！",
         "PROFILE_LAST_ACTIVE": "上次活動： {{ lastActive }}",
         "LIKED": "喜歡",
         "NOPE": "無"
@@ -167,6 +173,7 @@
       "EDIT_PROFILE_LOCATION": "位置",
       "EDIT_PROFILE_JOB": "職業",
       "EDIT_PROFILE_TAGS": "標籤",
+      "EDIT_VOICE_MESSAGE": "Voice Message",
       "EDIT_PROFILE_PREVIEW": "顯示預覽",
       "LIKE": "喜歡",
       "DISLIKE": "不喜歡"
@@ -224,14 +231,46 @@
       "NEW_MESSAGE": "簡訊…",
       "NEW_MESSAGE_GROUP": "電話號碼…",
       "SHARE_IMAGE_TITLE": "您想分享這張照片嗎？",
+      "SHARE_NOTE_TITLE": "您想分享這則筆記嗎？",
       "SHARE_CONTACT_TITLE": "您想分享這個聯絡人嗎？",
       "GROUP_CHAT_LABEL": "群組聊天…",
       "MEDIA_OPTION": "相機 / 照片庫",
       "CONTACT_OPTION": "分享聯絡人",
+      "CONTACT_SHARED": "已分享聯絡人",
+      "NOTE_OPTION": "分享筆記",
+      "LOCATION_OPTION": "分享地點",
+      "LOCATION_MESSAGE": "地點已分享",
+      "LOCATION_TOOLTIP": "設定導航",
+      "NOTE_TOOLTIP": "檢視筆記",
       "NEW_MESSAGE_GROUP_SUBMIT": "發送",
       "INPUT_NAME_OR_NUMBER": "搜索聯絡人或號碼並按確定",
       "ACTIONS_TITLE": "動做",
       "ME": "我的"
+    },
+    "DARKCHAT": {
+      "FEEDBACK": {
+        "FETCH_MESSAGES_FAILED": "獲取訊息失敗",
+        "JOIN_CHANNEL_FAILED": "加入頻道失敗",
+        "LEAVE_CHANNEL_FAILED": "離開頻道失敗",
+        "SEND_MESSAGE_FAILED": "送出訊息失敗",
+        "UPDATE_LABEL_FAILED": "更新頻道名稱失敗",
+        "TRANSFER_OWNERSHIP_FAILED": "更新所有權失敗",
+        "FETCH_MEMBERS_FAILED": "獲取成員失敗",
+        "DELETE_CHANNEL_FAILED": "刪除頻道失敗"
+      },
+      "TYPE_TO_CONFIRM": "輸入 \"{{ identifier }}\" 以確認",
+      "LEAVE": "離開",
+      "NEW_CHANNEL_TITLE": "以 ID 加入頻道",
+      "DELETE_CHANNEL_TITLE": "刪除頻道",
+      "NEW_CHANNEL_INPUT_PLACEHOLDER": "頻道 ID",
+      "JOIN_BUTTON": "加入頻道",
+      "TRANSFER_OWNERSHIP": "變更所有權",
+      "MESSAGE_PLACEHOLDER": "發送訊息",
+      "MEDIA_PLACEHOLDER": "圖片網址",
+      "MEDIA_UPLOAD": "上傳圖片",
+      "MEDIA_GALLERY": "選擇圖片",
+      "MEMBERS": "成員",
+      "DANGER_ZONE": "危險區"
     },
     "RELATIVE_TIME": {
       "future": "在 %s 中",
@@ -265,11 +304,13 @@
       "CONTENT": "內容",
       "SHARE": "分享",
       "ADD": "添加",
+      "SEND": "Send",
       "WRITE_TO_CLIPBOARD_TOOLTIP": "複製 {{ content }}",
-      "WRITE_TO_CLIPBOARD_MESSAGE": "已經 {{content}} 複製到剪貼簿！"
+      "WRITE_TO_CLIPBOARD_MESSAGE": "已將 {{ content }} 複製到剪貼簿！"
     },
     "COMING_SOON": "即將推出…",
-    "INITIALIZING": "初始話",
+    "INITIALIZING": "初始化",
+    "APPS_SYSTEM": "系統",
     "APPS_DIALER": "電話",
     "APPS_CONTACTS": "聯絡人",
     "APPS_MESSAGES": "簡訊",
@@ -277,12 +318,13 @@
     "APPS_SETTINGS": "設定",
     "APPS_BANK": "網路銀行",
     "APPS_NOTES": "筆記",
-    "APPS_EXAMPLE": "示例APP",
+    "APPS_EXAMPLE": "範例 APP",
     "APPS_TWITTER": "推特",
     "APPS_MARKETPLACE": "市場",
     "APPS_CAMERA": "相機",
-    "APPS_MATCH": "媒介",
+    "APPS_MATCH": "媒合",
     "APPS_CALCULATOR_COPIED": "結果已複製到剪貼簿！",
+    "APPS_DARKCHAT": "IRC",
     "GENERIC_CLICK_TO_REVEAL": "點擊顯示",
     "GENERIC_LOADING": "載入中…",
     "GENERIC_WAIT": "請稍後…",
